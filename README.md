@@ -1,2 +1,3 @@
-# Lab6
-Lab 6 for CPRG352
+# Lab7
+Lab 7 for CPRG352
+Based on the previous Lab 6
