@@ -1,4 +1,4 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+    <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 
@@ -48,7 +48,7 @@
                         <select name="addRole">
                             <option>Select Role</option>
                             <c:forEach var="role" items="${roles}">
-                            <option>${role.name}</option>
+                            <option>${role.roleName}</option>
                             </c:forEach>
                         </select>
                             
@@ -74,7 +74,7 @@
                                 <select name="editRole">
                                     <option>Select Role</option>
                                     <c:forEach var="role" items="${roles}">
-                                    <option>${role.name}</option>
+                                    <option>${role.roleName}</option>
                                     </c:forEach>
                                 </select>
                             

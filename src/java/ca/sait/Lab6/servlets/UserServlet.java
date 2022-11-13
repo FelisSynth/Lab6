@@ -107,7 +107,7 @@ public class UserServlet extends HttpServlet {
                 Role role = null;
                 
                 for(int x = 0; x < roles.size(); x++){
-                    if(roles.get(x).getName().equals(roleName)){
+                    if(roles.get(x).getRoleName().equals(roleName)){
                         role = roles.get(x);
                     }
                 }
@@ -133,7 +133,7 @@ public class UserServlet extends HttpServlet {
 
                   for(int x = 0; x < roles.size(); x++)
                 {
-                    if(roles.get(x).getName().equals(roleName))
+                    if(roles.get(x).getRoleName().equals(roleName))
                     {
                         role = roles.get(x);
                     }
@@ -145,7 +145,7 @@ public class UserServlet extends HttpServlet {
                 Logger.getLogger(UserServlet.class.getName()).log(Level.SEVERE, null, ex);
             }
 
-            active = user.isActive();
+            active = user.getActive();
             
             try {
                 userService.update(email, active, firstName, lastName, password, role);

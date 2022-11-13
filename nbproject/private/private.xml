@@ -5,6 +5,7 @@
         <group>
             <file>file:/C:/SchoolWork/cprg352%20-%20nick/work/projects/Lab6/web/WEB-INF/users.jsp</file>
             <file>file:/C:/SchoolWork/cprg352%20-%20nick/work/projects/Lab6/src/java/ca/sait/Lab6/servlets/UserServlet.java</file>
+            <file>file:/C:/SchoolWork/cprg352%20-%20nick/work/projects/Lab6/src/java/ca/sait/Lab6/models/User.java</file>
             <file>file:/C:/SchoolWork/cprg352%20-%20nick/work/projects/Lab6/src/java/ca/sait/Lab6/services/UserService.java</file>
             <file>file:/C:/SchoolWork/cprg352%20-%20nick/work/projects/Lab6/src/java/ca/sait/Lab6/dataaccess/UserDB.java</file>
         </group>
